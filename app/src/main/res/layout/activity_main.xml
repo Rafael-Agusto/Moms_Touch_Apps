@@ -5,7 +5,6 @@
     android:id="@+id/mainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#65d4f0"
     tools:context=".MainActivity">
 
     <TextView
@@ -20,17 +19,6 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9"
         tools:ignore="HardcodedText,TextSizeCheck" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="161dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="12dp"
-        android:text="Order Now"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15"
-        tools:ignore="HardcodedText" />
-
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="220dp"
@@ -42,7 +30,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.098"
+        app:layout_constraintVertical_bias="0.088"
         app:srcCompat="@drawable/mt_logo"
         tools:ignore="HardcodedText" />
 
@@ -177,12 +165,12 @@
         android:id="@+id/email"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="80dp"
         android:layout_marginTop="200dp"
+        android:layout_marginEnd="36dp"
         android:onClick="email"
         android:scaleType="fitCenter"
         android:src="@drawable/email"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/call"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
